@@ -1,4 +1,4 @@
-class Mpfr2 < Formula
+class MpfrAT2 < Formula
   desc "Multiple-precision floating-point computations C lib"
   homepage "http://www.mpfr.org/"
   # Track gcc infrastructure releases.
