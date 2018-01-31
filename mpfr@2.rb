@@ -17,7 +17,7 @@ class MpfrAT2 < Formula
 
   keg_only :versioned_formula
 
-  depends_on "gmp@4"
+  # depends_on "gmp@4"
 
   fails_with :clang do
     build 421
