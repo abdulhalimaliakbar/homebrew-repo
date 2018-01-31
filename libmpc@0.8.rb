@@ -1,4 +1,4 @@
-class Libmpc08 < Formula
+class LibmpcAT08 < Formula
   desc "C library for high precision complex numbers"
   homepage "http://multiprecision.org/"
   # Track gcc infrastructure releases.
