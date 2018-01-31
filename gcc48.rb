@@ -210,4 +210,3 @@ class GccAT48 < Formula
     assert_equal "Hello, world!\n", `./hello-c`
   end
 end
-(END)
