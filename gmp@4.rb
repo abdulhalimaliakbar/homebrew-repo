@@ -1,4 +1,4 @@
-class Gmp4 < Formula
+class GmpAT4 < Formula
   desc "GNU multiple precision arithmetic library"
   homepage "https://gmplib.org/"
   # Track gcc infrastructure releases.
