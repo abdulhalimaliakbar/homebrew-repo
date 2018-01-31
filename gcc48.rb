@@ -60,11 +60,11 @@ class Gcc48 < Formula
   deprecated_option "enable-profiled-build" => "with-profiled-build"
 
   depends_on MaximumMacOSRequirement => :sierra
-  depends_on "gmp@4"
-  depends_on "libmpc@0.8"
-  depends_on "mpfr@2"
-  depends_on "cloog"
-  depends_on "isl@0.12"
+  #depends_on "gmp@4"
+  #depends_on "libmpc@0.8"
+  #depends_on "mpfr@2"
+  #depends_on "cloog"
+  #depends_on "isl@0.12"
   depends_on "ecj" if build.with?("java") || build.with?("all-languages")
 
   fails_with :gcc_4_0
